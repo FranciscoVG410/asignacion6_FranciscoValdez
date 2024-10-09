@@ -1,0 +1,138 @@
+body {
+    background-color: #f0f0f0 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    border: 3px solid #ff0000 !important;
+    margin-bottom: 20px !important;
+}
+
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px !important;
+    text-align: left !important;
+}
+
+th {
+    background-color: #453f3f !important;
+    color: white !important;
+}
+
+li::before {
+    content: "- ";
+    color: #50184b;
+}
+
+td::first-letter {
+    font-size: 1em;
+    font-weight: bold;
+    color: #FF5722;
+}
+
+p::first-line {
+    text-decoration: underline;
+}
+
+td::selection {
+    background-color: #FFEB3B;
+    color: #000;
+}
+
+.gray-background {
+    background-color: lightgray !important;
+    color: #333 !important;
+}
+
+
+tr:hover {
+    background-color: #a8a8a8 !important;
+    transition: background-color 0.3s ease !important;
+}
+
+img {
+    max-width: 100px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.pokemon-name {
+    font-weight: bold !important;
+}
+
+.pokemon-type {
+    text-transform: uppercase !important;
+    font-size: 0.9em !important;
+}
+
+.pokemon-ability {
+    font-style: italic !important;
+}
+
+a:active {
+    color: red !important;
+}
+
+input:checked {
+    background-color: #e0e0e0 !important;
+}
+
+input:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
+p:empty {
+    display: none !important;
+}
+
+input:enabled {
+    border: 2px solid #4CAF50 !important;
+}
+
+p:only-child {
+    font-weight: bold !important;
+    color: #2196F3 !important;
+}
+
+input:optional {
+    border: 1px dashed #9E9E9E !important;
+}
+
+input:out-of-range {
+    border-color: #FF5722 !important;
+}
+
+input:read-only {
+    background-color: #f0f0f0 !important;
+    cursor: default !important;
+}
+
+input:required {
+    border: 2px solid #FF5722 !important;
+}
+
+input:invalid {
+    border: 2px solid #F44336 !important;
+}
+
+p:lang(es) {
+    font-style: italic !important;
+    color: #4CAF50 !important;
+}
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+a:link {
+    color: #2196F3 !important;
+    text-decoration: none !important;
+}
+
+p:not(.exception) {
+    margin-left: 20px !important;
+}
